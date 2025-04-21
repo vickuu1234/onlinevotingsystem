@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Vote</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="vote">
+  <div class="container">
+    <h2>Vote for Your Favorites</h2>
+    <form id="voteForm">
+      <label><input type="checkbox" name="vote" value="Cats"> Cats</label>
+      <label><input type="checkbox" name="vote" value="Dogs"> Dogs</label>
+      <label><input type="checkbox" name="vote" value="Bunnies"> Bunnies</label>
+      <label><input type="checkbox" name="vote" value="Pandas"> Pandas</label>
+      <label><input type="checkbox" name="vote" value="Unicorns"> Unicorns</label>
+      <button type="button" onclick="submitVote()">Submit Vote</button>
+    </form>
+    <a href="result.html" class="button">See Results</a>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
